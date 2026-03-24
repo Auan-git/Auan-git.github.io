@@ -1,0 +1,30 @@
+/* 页脚核心样式 - 颜色自定义 */
+/* 1. 页脚整体背景 + 顶部分隔线 */
+#footer {
+    background: #2c3e50 !important;  /* 页脚背景色（深蓝，可改） */
+    border-top: 3px solid #49B1F5 !important;  /* 顶部分隔线颜色（主题蓝） */
+    padding: 40px 0;  /* 上下内边距，不影响颜色，仅调整高度 */
+  }
+  
+  /* 2. 页脚文字颜色（主文字） */
+  .footer-wrap .copyright,
+  .footer-wrap .custom_text,
+  .footer-wrap .footer-links a {
+    color: #ecf0f1 !important;  /* 浅白色，适配深色背景 */
+  }
+  
+  /* 3. 社交链接/按钮悬浮变色 */
+  .footer-wrap .footer-links a:hover {
+    color: #49B1F5 !important;  /* 悬浮时变主题蓝 */
+    text-decoration: underline !important;
+  }
+  
+  /* 4. 回到顶部按钮样式 */
+  .scroll-up {
+    background: #49B1F5 !important;  /* 按钮背景色 */
+    color: #fff !important;  /* 按钮图标色 */
+  }url
+  .scroll-up:hover {
+    background: #3498db !important;  /* 按钮悬浮背景色（浅一点的蓝） */
+  }
+  
