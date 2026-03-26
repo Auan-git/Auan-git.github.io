@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xingqiwu.net.cn/2026/03/26/%E8%BF%91%E6%9C%9F%E5%85%B3%E4%BA%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E4%B8%93%E4%B8%9A%E6%9C%AC%E7%A7%91%E7%94%9F%E6%95%99%E8%82%B2%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/</loc>
+    
+    <lastmod>2026-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xingqiwu.net.cn/2026/03/24/OpenClaw/</loc>
     
     <lastmod>2026-03-24</lastmod>
@@ -85,7 +94,7 @@
 
   <url>
     <loc>https://xingqiwu.net.cn/</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,21 +102,28 @@
   
   <url>
     <loc>https://xingqiwu.net.cn/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingqiwu.net.cn/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingqiwu.net.cn/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingqiwu.net.cn/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -116,21 +132,21 @@
   
   <url>
     <loc>https://xingqiwu.net.cn/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingqiwu.net.cn/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingqiwu.net.cn/categories/%E5%BC%80%E6%BA%90%E5%B0%8F%E7%8E%A9%E6%84%8F/</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
