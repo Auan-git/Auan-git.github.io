@@ -11,8 +11,8 @@ https://xingqiwu.net.cn/2026/07/16/Markdown/
 https://xingqiwu.net.cn/2026/07/16/About_AI/
 https://xingqiwu.net.cn/2026/07/16/Codex%E5%AE%89%E8%A3%85%E4%B8%8EXiao%20mimo%E6%A8%A1%E5%9E%8B%E7%BB%93%E5%90%88/
 https://xingqiwu.net.cn/series/index.html
-https://xingqiwu.net.cn/about/index.html
 https://xingqiwu.net.cn/2026/03/19/%E3%80%8A%E7%90%86%E5%B7%A5%E7%A7%91%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E6%8C%87%E5%8C%97%E3%80%8B%EF%BC%881.2.0%20%E7%89%88%EF%BC%89%EF%BC%9A%E5%AF%92%E5%81%87%E7%89%88%E8%A1%A5%E5%85%85%E4%B8%8E%E5%AE%8C%E5%96%84/
+https://xingqiwu.net.cn/about/index.html
 https://xingqiwu.net.cn/2026/03/16/hello-world/
 https://xingqiwu.net.cn/link/index.html
 https://xingqiwu.net.cn/categories/index.html
@@ -26,6 +26,6 @@ https://xingqiwu.net.cn/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/
 https://xingqiwu.net.cn/tags/%E8%AE%B2%E5%BA%A7/
 https://xingqiwu.net.cn/tags/%E8%B5%84%E6%BA%90/
 https://xingqiwu.net.cn/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/
-https://xingqiwu.net.cn/categories/%E6%95%99%E7%A8%8B/
 https://xingqiwu.net.cn/categories/%E5%BC%80%E6%BA%90%E5%B0%8F%E7%8E%A9%E6%84%8F/
+https://xingqiwu.net.cn/categories/%E6%95%99%E7%A8%8B/
 https://xingqiwu.net.cn/categories/%E8%AE%B2%E5%BA%A7/
