@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "copy-logo",
+			"type": "shell",
+			"command": "copy \"J:\\my_wiki\\logo (1).jpg\" \"J:\\my_web\\logo (1).jpg\" /Y",
+			"isBackground": false
+		}
+	]
+}

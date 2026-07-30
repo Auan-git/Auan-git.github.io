@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edge's Web</title>
+    <script>!function(){var t=localStorage.getItem('wiki-theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark')}()</script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 液态玻璃背景 -->
+    <div class="glass-bg"></div>
+
+    <!-- 顶部导航栏 -->
+    <header class="header">
+        <div class="header-inner">
+            <a href="/" class="site-title">Edge's Web</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="https://wiki.xingqiwu.net.cn/">Wike</a></li>
+                    <li><a href="about.html">关于我</a></li>
+                </ul>
+            </nav>
+            <div class="nav-right">
+                <a class="nav-right-link" href="https://ucnift0madf0.feishu.cn/wiki/WPelwNGQ8ifj2kkCDjIcHKywnMf?from=from_copylink">讲座信息</a>
+                <button class="nav-music-mute" id="nav-music-mute" title="点击切换静音">🔇</button>
+                <button class="nav-theme-toggle" id="nav-theme-toggle" aria-label="切换暗色/亮色模式" title="切换暗色/亮色模式">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主内容区域 -->
+    <main class="container">
+        <div class="wiki">
+
+            <!-- Hero 双栏介绍 -->
+            <section class="hero">
+                <div class="hero-left flip-card" id="hero-flip">
+                    <div class="flip-inner">
+                        <div class="flip-front">
+                            <div class="hero-name">Edge</div>
+                            <p class="hero-subtitle">A Computer Science Learner</p>
+                            <div class="hero-tags">
+                                <span class="hero-tag">机器视觉</span>
+                                <span class="hero-tag">操作系统</span>
+                            </div>
+                        </div>
+                        <div class="flip-back">
+                            <h2 class="flip-back-title">Hello, World.</h2>
+                            <p>我是 Edge，应急管理大学网络工程专业的大三学生。</p>
+                            <p>我相信计算机的力量，相信计算机能改变世界。站在巨人的肩膀上，我们一起探索计算机的边际——从操作系统的底层到机器学习的未来。</p>
+                            <p>欢迎你访问我的博客</p>
+                            <p><strong>"Given enough eyeballs, all bugs are shallow."</strong></p>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">点击翻转回来 →</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-code">
+                        <div class="hero-code-header">
+                            <span class="hero-code-dot"></span>
+                            <span class="hero-code-dot"></span>
+                            <span class="hero-code-dot"></span>
+                            <span style="margin-left:0.5rem;">intro.py</span>
+                        </div>
+                        <pre><code><span style="color:var(--link-color);">class</span> <span style="color:var(--box-green-text);">Edge</span>:
+    <span style="color:var(--text-secondary);">"""A Computer Science Learner"""</span>
+
+    <span style="color:var(--link-color);">def</span> <span style="color:var(--box-blue-text);">__init__</span>(self):
+        self.focus = [<span style="color:var(--box-green-text);">"机器视觉"</span>, <span style="color:var(--box-green-text);">"操作系统"</span>]
+        self.belief = <span style="color:var(--box-green-text);">"开源改变世界"</span>
+
+    <span style="color:var(--link-color);">def</span> <span style="color:var(--box-blue-text);">daily</span>(self):
+        <span style="color:var(--link-color);">while</span> curious:
+            explore(<span style="color:var(--box-green-text);">"计算机边际"</span>)
+            build(projects)
+            share(knowledge)</code></pre>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 向下滚动箭头 -->
+            <div class="scroll-arrow" id="scroll-arrow" title="往下看">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+
+            <div class="section-header">
+                <h2>我的开源项目</h2>
+                <a class="more-link" href="https://github.com/Auan-git" target="_blank" rel="noopener">more →</a>
+            </div>
+            <div class="project-grid">
+                <a class="project-card" href="https://github.com/Auan-git/demo-platform" target="_blank" rel="noopener">
+                    <div class="project-card-header">
+                        <svg class="project-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        <span class="project-name">demo-platform</span>
+                        <span class="project-stars">⭐ 1</span>
+                    </div>
+                    <p class="project-desc">无人机灾情识别多模型基准评测与可视化平台 — 支持在线管理模型和视频，运行目标检测推理，实时对比多个模型的性能。</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">React 19</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">WebSocket</span>
+                    </div>
+                </a>
+                <a class="project-card" href="https://github.com/Auan-git/Auan-git.github.io" target="_blank" rel="noopener">
+                    <div class="project-card-header">
+                        <svg class="project-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        <span class="project-name">Auan-git.github.io</span>
+                        <span class="project-stars">⭐ 1</span>
+                    </div>
+                    <p class="project-desc">个人博客网站 — 基于 GitHub Pages 的个人主页，记录学习笔记、技术分享与生活思考。</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">GitHub Pages</span>
+                    </div>
+                </a>
+            </div>
+
+            <h2>计算机劝学</h2>
+            <p>笔者是计算机类专业的学生，何其倒霉又何其幸运，生在了 AI agent 爆发的时代。有了这些工具——或者说<strong>同事</strong>——我的想法得以在不学习相关知识的前提下实现（有没有 bug 另说）。但正是这些工具，让我们这些致力于在计算机方向有一番见解的人，自学更加方便。</p>
+            <p>计算机专业从来不是为了 KPI 而生的专业。一个优秀程序员绝对不是写代码最多的人，但一定会是<strong>积极思考的人</strong>，<strong>永远自学的人</strong>。孩子们，让我们摒弃迂腐的教育体制，拥抱自学吧。</p>
+
+            <div class="bottom-grid">
+                <div class="bottom-col">
+                    <div style="display:flex; align-items:baseline; justify-content:space-between;">
+                        <h3 style="margin:0;">文章</h3>
+                        <a href="articles.html" class="bottom-link" style="margin:0;">更多文章 →</a>
+                    </div>
+                    <p style="margin-top: 0.5rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: var(--text-secondary);">这是我的blog，记录我的思考</p>
+<!-- ARTICLE_LIST_START -->
+<ul id="article-list" class="article-list">
+<li class="article-item"><a href="articles/近期关于计算机类专业本科生教育的一些思考.html">近期关于计算机类专业本科生教育的一些思考</a><span class="box box-gray">碎碎念</span> <time class="article-date" datetime="2026-01-05">2026-01-05</time></li>
+<li class="article-item"><a href="articles/About AI.html">About AI</a><span class="box box-gray">碎碎念</span> <time class="article-date" datetime="2026-03-05">2026-03-05</time></li>
+<li class="article-item"><a href="articles/听课这件事可能真的不适合我.html">听课这件事，可能真的不适合我</a> <time class="article-date" datetime="2026-07-30">2026-07-30</time></li>
+</ul>
+<!-- ARTICLE_LIST_END -->
+                </div>
+                <div class="bottom-col">
+                    <div style="display:flex; align-items:baseline; justify-content:space-between;">
+                        <h3 style="margin:0;">Wiki</h3>
+                        <a href="https://wiki.xingqiwu.net.cn/" class="bottom-link" style="margin:0;">前往 Wiki →</a>
+                    </div>
+                    <p style="margin-top: 0.5rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: var(--text-secondary);">Wiki 是一种协作式文档管理系统，欢迎访问我的<a href="https://wiki.xingqiwu.net.cn/" target="_blank" rel="noopener">个人wiki</a></p>
+<!-- WIKI_LIST_START -->
+<div class="wiki-list">
+<div class="wiki-item"><a href="wiki/理工科计算机基础指北.html" class="wiki-item-title">理工科计算机基础指北</a><p class="wiki-item-desc">面向理工科新生的计算机基础知识指南，涵盖硬件认识、操作系统、开发工具等内容</p></div>
+<div class="wiki-item"><a href="wiki/OpenClaw.html" class="wiki-item-title">OpenClaw安装与常用命令</a><p class="wiki-item-desc">OpenClaw（龙虾）AI 助手的安装配置教程，包含 MiMo 模型配置和常用命令</p></div>
+</div>
+<!-- WIKI_LIST_END -->
+                </div>
+            </div>
+
+            <div class="music-player" id="music-player">
+                <div class="music-info">
+                    <span class="music-title">丑八怪</span>
+                    <span class="music-artist">薛之谦</span>
+                </div>
+                <div class="music-lyrics" id="music-lyrics"></div>
+                <audio id="music-audio" src="《丑八怪》.mp3" muted autoplay loop preload="auto"></audio>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons License: BY-NC 4.0</a>
+            </p>
+            <p>&copy; 2026 Edge's Web</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
