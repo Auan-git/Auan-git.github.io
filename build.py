@@ -114,12 +114,13 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
             <nav class="nav">
                 <ul class="nav-list">
                     <li><a href="https://wiki.xingqiwu.net.cn/">Wike</a></li>
-                    <li><a href="../about.html">关于我</a></li>
-                    <li><a href="https://wiki.xingqiwu.net.cn/">Wike</a></li>
                     <li><a href="about.html">关于我</a></li>
                 </ul>
             </nav>
-            <a class="nav-right-link" href="https://ucnift0madf0.feishu.cn/wiki/WPelwNGQ8ifj2kkCDjIcHKywnMf?from=from_copylink">讲座信息</a>
+            <div class="nav-right">
+                <a class="nav-right-link" href="https://ucnift0madf0.feishu.cn/wiki/WPelwNGQ8ifj2kkCDjIcHKywnMf?from=from_copylink">讲座信息</a>
+                <button class="nav-theme-toggle" id="nav-theme-toggle" aria-label="切换暗色/亮色模式" title="切换暗色/亮色模式">🌙</button>
+            </div>
         </div>
     </header>
 
@@ -277,9 +278,6 @@ def generate_toc_html(text: str) -> str:
         # 构建悬浮侧边栏结构
         result = '''<!-- 目录切换按钮 -->
 <button class="toc-toggle-btn" id="toc-toggle-btn" title="目录" aria-label="打开目录">目录</button>
-
-<!-- 遮罩层 -->
-<div class="toc-overlay" id="toc-overlay"></div>
 
 <!-- 目录侧边栏 -->
 <aside class="toc-sidebar" id="toc-sidebar">

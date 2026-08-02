@@ -269,7 +269,6 @@ function initMusicPlayer() {
 function initTOC() {
     const toggleBtn = document.getElementById('toc-toggle-btn');
     const sidebar = document.getElementById('toc-sidebar');
-    const overlay = document.getElementById('toc-overlay');
     const closeBtn = document.getElementById('toc-close-btn');
 
     if (!toggleBtn || !sidebar) return;
@@ -293,7 +292,7 @@ function initTOC() {
     function openTOC() {
         sidebar.classList.add('open');
         toggleBtn.classList.add('toc-open');
-        if (overlay) overlay.classList.add('active');
+        document.body.classList.add('toc-open');
         // 聚焦关闭按钮
         if (closeBtn) setTimeout(() => closeBtn.focus(), 100);
     }
@@ -301,7 +300,7 @@ function initTOC() {
     function closeTOC() {
         sidebar.classList.remove('open');
         toggleBtn.classList.remove('toc-open');
-        if (overlay) overlay.classList.remove('active');
+        document.body.classList.remove('toc-open');
         toggleBtn.focus();
     }
 
@@ -315,7 +314,6 @@ function initTOC() {
 
     toggleBtn.addEventListener('click', toggleTOC);
     if (closeBtn) closeBtn.addEventListener('click', closeTOC);
-    if (overlay) overlay.addEventListener('click', closeTOC);
 
     // ESC 关闭
     document.addEventListener('keydown', function (e) {

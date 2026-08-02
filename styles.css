@@ -215,6 +215,13 @@ a:hover {
     padding: 2rem 1rem;
     position: relative;
     z-index: 1;
+    transition: margin-left 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* TOC 打开时，内容左移 */
+body.toc-open .container {
+    margin-left: 360px;
+    margin-right: auto;
 }
 
 /* ============================================
@@ -337,23 +344,7 @@ a:hover {
     left: 320px;
 }
 
-/* 遮罩层 */
-.toc-overlay {
-    position: fixed;
-    inset: 0;
-    z-index: 950;
-    background: rgba(0, 0, 0, 0.35);
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.35s ease, visibility 0.35s ease;
-    pointer-events: none;
-}
-
-.toc-overlay.active {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
+/* 遮罩层 - 已移除，改为内容左移 */
 
 /* 目录侧边栏 */
 .toc-sidebar {
@@ -497,7 +488,7 @@ a:hover {
     font-size: 0.8rem;
 }
 
-/* 响应式：移动端全宽 */
+/* 响应式：移动端全宽覆盖 */
 @media (max-width: 480px) {
     .toc-sidebar {
         width: 100vw;
@@ -506,6 +497,11 @@ a:hover {
 
     .toc-toggle-btn.toc-open {
         left: 100vw;
+    }
+
+    /* 移动端：不左移内容，直接覆盖 */
+    body.toc-open .container {
+        transform: none;
     }
 }
 
